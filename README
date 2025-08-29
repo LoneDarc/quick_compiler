@@ -1,1 +1,12 @@
-just a simple bash script to make compiling and running a single command
+just a simple bash script to make compiling and running a C script a single command
+
+usage:
+    after the name of the script put in the files you want to be compiled together
+    it runs clang to compile then runs the program.
+
+
+for now it just uses clang to compile and you can technically make it change the name of the output
+instead of it doing a.out but youd have to change that in the script
+
+may make it work with gcc and also C++ but for now i made it to make compiling and running my systems programming
+class projects faster.
